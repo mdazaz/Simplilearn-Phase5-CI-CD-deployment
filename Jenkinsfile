@@ -18,7 +18,7 @@ pipeline {
         
          stage('Maven Test') {
             steps {
-                echo '----------------- This is a compile phase ----------'
+                echo '----------------- This is a Test phase ----------'
                 sh 'mvn clean test'
             }
         }
