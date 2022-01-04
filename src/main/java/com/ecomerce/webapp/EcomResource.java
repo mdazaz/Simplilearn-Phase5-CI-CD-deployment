@@ -9,16 +9,16 @@ public class EcomResource {
 	
 	@GetMapping("/greeting")
 	public String greeting(@RequestParam(value = "name", defaultValue="World") String name) {
-		return "Today is a wonderfull day ! , " + name;
+		return "<h1>Today is a wonderfull day ahead ! , " + name +"</h1>";
 	}
 	
 	@GetMapping("/")
 	public String index() {
-		return "Hello, Welcome ecommerce webservice application ! ";
+		return "<h1>Hello, Welcome ecommerce webservice application deployed using jenkins ! </h1>";
 	}
 	
 	@GetMapping("/hello")
 	public String hello() {
-		return "Hello, wonderfull job!";
+		return "<h2>Hello, wonderfull job!<h2>";
 	}
 }
