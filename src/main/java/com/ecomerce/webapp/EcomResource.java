@@ -22,7 +22,6 @@ public class EcomResource {
           <small>Since 2011</small>
         </div>
       </div>
-
       <div class='my-3 p-3 bg-white rounded box-shadow'>
         <h6 class='border-bottom border-gray pb-2 mb-0'>Recent updates</h6>
         <div class='media text-muted pt-3'>
@@ -50,7 +49,6 @@ public class EcomResource {
           <a href='#'>All updates</a>
         </small>
       </div>
-
       <div class='my-3 p-3 bg-white rounded box-shadow'>
         <h6 class='border-bottom border-gray pb-2 mb-0'>Suggestions</h6>
         <div class='media text-muted pt-3'>
